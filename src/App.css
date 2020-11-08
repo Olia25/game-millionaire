@@ -1,38 +1,604 @@
-.App {
-  text-align: center;
+body {
+   margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and  (min-width : 320px) {
+    .mainPages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgHand {
+        margin-top: 80px;
+        width: 288px;
+        height: 192px;
+    }
+    .title{
+        font-size: 22px;
+        width: 288px;
+        height: 74px;
+        text-align: center;
+    }
+    .orangeButton{
+        width: 288px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 70px;
+    }
+    .titleTotalScore{
+        font-size: 18px;
+        text-align: center;
+    }
+    .earned{
+        font-size: 32px;
+        text-align: center;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        background: #E5E5E5;
+        height: 100vh;
+        align-items: center;
+    }
+    .question{
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        margin-top: 106px;
+        margin-bottom: 50px;
+        width: 288px;
+        height: 63px;
+        text-align: center;
+    }
+    .answerOptionsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .answerOptions {
+        border: 1px solid #D0D0D8;
+        background: #FFFFFF;
+        width: 288px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+    }
+    .value{
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FF8B37;
+        padding-left: 25px;
+        margin-right: 15px;
+    }
+    .blackText{
+        font-size: 14px;
+    }
+    .prizeTable{
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .score{
+        width: 240px;
+        height: 40px;
+    }
+    .activeScore{
+        border: 1px solid #FF8B37;
+        width: 240px;
+        height: 40px;
+    }
+    .blackText{
+
+        align-self: center;
+        color:  #1C1C21;
+    }
+}
+@media only screen and (min-width : 375px) {
+    .mainPages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgHand {
+        width: 318px;
+        height: 220px;
+        margin-bottom: 10px;
+    }
+    .title{
+        font-size: 32px;
+        width: 288px;
+        height: 74px;
+        text-align: center;
+    }
+    .orangeButton{
+        margin-top: 100px;
+    }
+    .answerOptionsContainer{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width : 414px) {
+    .mainPages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgHand {
+        margin-top: 120px;
+    }
+    .title{
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 35px;
+    }
+    .titleTotalScore{
+        font-size: 20px;
+        text-align: center;
+    }
+    .orangeButton{
+        width: 288px;
+        height: 48px;
+        font-size: 16px;
+    }
+    .earned{
+        font-size: 38px;
+        text-align: center;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        background: #E5E5E5;
+        height: 100vh;
+        align-items: center;
+    }
+    .question{
+        font-family: 'Inter', sans-serif;
+        font-size: 22px;
+        margin-top: 106px;
+        margin-bottom: 50px;
+        width: 288px;
+        height: 63px;
+        text-align: center;
+    }
+    .answerOptionsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .answerOptions {
+        border: 1px solid #D0D0D8;
+        background: #FFFFFF;
+        width: 308px;
+        height: 66px;
+        display: flex;
+        align-items: center;
+    }
+    .value{
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FF8B37;
+        padding-left: 25px;
+        margin-right: 15px;
+    }
+    .blackText{
+        font-size: 18px;
+    }
+    .prizeTable{
+        margin: 90px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+@media only screen and (min-width : 768px)  {
+    .mainPages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgHand {
+        margin-bottom: 20px;
+        width: 544px;
+        height: 307px;
+    }
+    .title{
+        font-size: 60px;
+        margin-top: 100px;
+        width: 500px;
+        height: 130px;
+        text-align: center;
+    }
+    .orangeButton{
+        width: 528px;
+        height: 74px;
+        font-size: 25px;
+        margin-top: 85px;
+    }
+    .titleTotalScore{
+        font-size: 28px;
+        text-align: center;
+    }
+    .earned{
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .question{
+        font-size: 32px;
+        width: 450px;
+        height: 74px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .answerOptionsContainer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .answerOptions {
+        border: 1px solid #D0D0D8;
+        background: #FFFFFF;
+        width: 288px;
+        height: 56px;
+    }
+    .value{
+        font-size: 18px;
+        padding-left: 25px;
+        margin-right: 15px;
+    }
+    .blackText{
+        font-size: 18px;
+    }
+    .prizeTable{
+        width: 280px;
+        height: 630px;
+        background-color: #FFFFFF;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    .mainPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgHand {
+        width: 674px;
+        height: 417px;
+    }
+    .orangeButton{
+        width: 550px;
+        height: 94px;
+        font-size: 30px;
+        margin-top: 105px;
+    }
+    .title{
+        margin-bottom: 64px;
+        font-size: 68px;
+        width: 550px;
+        height: 130px;
+        text-align: center;
+    }
+    .titleTotalScore{
+        font-size: 34px;
+    }
+    .earned{
+        font-size: 58px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .question{
+        font-size: 40px;
+        width: 550px;
+        height: 74px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .answerOptionsContainer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+    .answerOptions {
+        width: 350px;
+        height: 76px;
+    }
+    .value{
+        font-size: 25px;
+    }
+    .blackText{
+        font-size: 25px;
+    }
+    .prizeTable{
+        width: 350px;
+        height: 700px;
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+}
+@media only screen and (min-width : 1224px) {
+    .mainPages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgHand {
+        width: 624px;
+        height: 367px;
+        margin-right: 32px;
+        margin-left: 0;
+    }
+    .title {
+        font-size: 56px;
+        width: 624px;
+        height: 130px;
+        text-align: start;
+    }
+    .orangeButton {
+        width: 296px;
+        height: 64px;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .container2{
+       display: flex;
+       flex-direction: row;
+    }
+    .question{
+        font-size: 32px;
+        width: 624px;
+        height: 74px;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-left: 180px;
+        margin-bottom: 300px;
+    }
+    .answerOptionsContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .answerOptions{
+        border: 1px solid #D0D0D8;
+        background: #FFFFFF;
+        width: 390px;
+        height: 72px;
+        display: flex;
+        align-items:center;
+    }
+    .prizeTable{
+        width: 676px;
+        height: 100vh;
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+    .titleTotalScore{
+        font-size: 34px;
+        text-align: start;
+        margin-bottom: 0;
+    }
+    .earned{
+        margin-top: 0;
+        font-size: 58px;
+        text-align: start;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (min-width : 1825px) {
+    .mainPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgHand {
+        width: 664px;
+        height: 407px;
+        margin-left: 0;
+    }
+    .question{
+        font-size:53px;
+        width: 924px;
+        height: 74px;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-left: 180px;
+        margin-bottom: 300px;
+    }
+    .answerOptionsContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .answerOptions{
+        border: 4px solid #D0D0D8;
+        width: 690px;
+        height: 122px;
+        display: flex;
+        align-items:center;
+    }
+    .prizeTable{
+        width: 876px;
+        height: 100vh;
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+    .score{
+        border: 1px solid #D0D0D8;
+        width: 640px;
+        height: 80px;
+    }
+    .activeScore{
+        border: 1px solid #FF8B37;
+        width: 640px;
+        height: 80px;
+    }
+    .value{
+        font-size: 38px;
+    }
+    .blackText{
+        font-size: 38px;
+    }
+}
+@media only screen and (min-width : 2525px) {
+    .mainPages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgHand {
+        width: 859px;
+        height: 577px;
+    }
+    .title{
+        font-size: 66px;
+        width: 650px;
+        height: 130px;
+        text-align: center;
+    }
+    .orangeButton{
+        width: 376px;
+        height: 94px;
+        font-size: 40px;
+    }
+    .question{
+        font-size: 52px;
+        width: 924px;
+        height: 74px;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-left: 180px;
+        margin-bottom: 300px;
+    }
+    .answerOptions{
+        border: 5px solid #D0D0D8;
+        background: #FFFFFF;
+        width: 890px;
+        height: 152px;
+        display: flex;
+        align-items:center;
+    }
+    .prizeTable{
+        width: 1476px;
+        height: 100vh;
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+    .score{
+        border: 1px solid #D0D0D8;
+        width: 640px;
+        height: 80px;
+    }
+    .activeScore{
+        border: 1px solid #FF8B37;
+        width: 640px;
+        height: 80px;
+    }
+    .value{
+        font-size: 45px;
+    }
+    .blackText{
+        font-size: 45px;
+    }
+}
+.orangeButton{
+    background: #FF8B37;
+    border-color:  #FF8B37;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+.titleTotalScore{
+    font-family: 'Inter', sans-serif;
+    color: #1C1C21;
+    opacity: 50%;
+    font-weight: 600;
+}
+.earned{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #1C1C21;
+}
+.firstPageCover{
+    height: 100vh;
+    background: linear-gradient(to bottom right, white, white 50%, #FFF3EB 50%, #FFF3EB);
+}
+.lastPageCover{
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+.title{
+    color:  #1C1C21;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.container2{
+    background: #E5E5E5;
+    height: 100vh;
+}
+.question{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.answerOptions{
+    border: 1px solid #D0D0D8;
+    background: #FFFFFF;
+    align-items:center;
+}
+.value{
+    font-family: 'Inter', sans-serif;
+    color: #FF8B37;
+}
+.blackText{
+    font-family: 'Inter', sans-serif;
+    align-self: center;
+    color:  #1C1C21;
+}
+.prizeTable{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.score{
+    border: 1px solid #D0D0D8;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.activeScore{
+    border: 1px solid #FF8B37;
+    display: flex;
+    justify-content: center;
+}
+.orangeButton:hover{
+    background: #FFAC70;
+}
+.correctAnswer{
+    border: 1px solid #47D867;
+    background: #E6FAEA;
+}
+.wrongAnswer{
+    background: #FDEEED;
+    border: 1px solid #EC6259;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
