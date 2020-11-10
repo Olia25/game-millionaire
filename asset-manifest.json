@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/game-millionaire/static/css/main.4bc9d3fd.chunk.css",
+    "main.js": "/game-millionaire/static/js/main.a89d9bc7.chunk.js",
+    "main.js.map": "/game-millionaire/static/js/main.a89d9bc7.chunk.js.map",
+    "runtime-main.js": "/game-millionaire/static/js/runtime-main.8c5974af.js",
+    "runtime-main.js.map": "/game-millionaire/static/js/runtime-main.8c5974af.js.map",
+    "static/js/2.d9856b43.chunk.js": "/game-millionaire/static/js/2.d9856b43.chunk.js",
+    "static/js/2.d9856b43.chunk.js.map": "/game-millionaire/static/js/2.d9856b43.chunk.js.map",
+    "static/js/3.4ce99104.chunk.js": "/game-millionaire/static/js/3.4ce99104.chunk.js",
+    "static/js/3.4ce99104.chunk.js.map": "/game-millionaire/static/js/3.4ce99104.chunk.js.map",
+    "index.html": "/game-millionaire/index.html",
+    "static/css/main.4bc9d3fd.chunk.css.map": "/game-millionaire/static/css/main.4bc9d3fd.chunk.css.map",
+    "static/js/2.d9856b43.chunk.js.LICENSE.txt": "/game-millionaire/static/js/2.d9856b43.chunk.js.LICENSE.txt",
+    "static/media/hand.7467c776.png": "/game-millionaire/static/media/hand.7467c776.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c5974af.js",
+    "static/js/2.d9856b43.chunk.js",
+    "static/css/main.4bc9d3fd.chunk.css",
+    "static/js/main.a89d9bc7.chunk.js"
+  ]
+}
