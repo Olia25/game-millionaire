@@ -358,20 +358,26 @@ body {
     .container2{
        display: flex;
        flex-direction: row;
+        align-items: center;
+    }
+    .positionAnswQues{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
     }
     .question{
         font-size: 32px;
         width: 624px;
         height: 74px;
         text-align: center;
-        padding-bottom: 50px;
-        margin-left: 180px;
-        margin-bottom: 300px;
+        padding-bottom: 150px;
     }
     .answerOptionsContainer {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
+        padding-left: 0;
     }
     .answerOptions{
         border: 1px solid #D0D0D8;
@@ -415,9 +421,8 @@ body {
         width: 924px;
         height: 74px;
         text-align: center;
-        padding-bottom: 50px;
-        margin-left: 180px;
-        margin-bottom: 300px;
+        padding-bottom: 150px;
+        margin-bottom: 120px;
     }
     .answerOptionsContainer {
         display: flex;
@@ -432,19 +437,19 @@ body {
         align-items:center;
     }
     .prizeTable{
-        width: 876px;
+        width: 1076px;
         height: 100vh;
         background-color: #FFFFFF;
         margin: 0;
     }
     .score{
         border: 1px solid #D0D0D8;
-        width: 640px;
+        width: 500px;
         height: 80px;
     }
     .activeScore{
         border: 1px solid #FF8B37;
-        width: 640px;
+        width: 500px;
         height: 80px;
     }
     .value{
@@ -481,8 +486,7 @@ body {
         height: 74px;
         text-align: center;
         padding-bottom: 50px;
-        margin-left: 180px;
-        margin-bottom: 300px;
+        /*margin-bottom: 300px;*/
     }
     .answerOptions{
         border: 5px solid #D0D0D8;
@@ -500,13 +504,13 @@ body {
     }
     .score{
         border: 1px solid #D0D0D8;
-        width: 640px;
-        height: 80px;
+        width: 740px;
+        height: 130px;
     }
     .activeScore{
         border: 1px solid #FF8B37;
-        width: 640px;
-        height: 80px;
+        width: 740px;
+        height: 130px;
     }
     .value{
         font-size: 45px;
@@ -584,6 +588,7 @@ body {
     border: 1px solid #FF8B37;
     display: flex;
     justify-content: center;
+    margin-bottom: 8px;
 }
 .orangeButton:hover{
     background: #FFAC70;

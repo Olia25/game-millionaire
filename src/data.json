@@ -1,135 +1,134 @@
-
 [
-    {
-      "question": "In the UK, the abbreviation NHS stands for National what Service?",
-      "correct_answer": 1,
-      "answers": [
-        "Humanity",
-        "Health",
-        "Honour",
-        "Household"
-      ],
-      "prize": "$500"
-    },
-    {
-      "question": "Which Disney character famously leaves a glass slipper behind at a royal ball?",
-      "correct_answer": 2,
-      "answers": [
-        "Pocahontas",
-        "Sleeping Beauty",
-        "Cinderella",
-        "Elsa"
-      ],
-      "prize": "$1,000"
-    },
-    {
-      "question": "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
-      "correct_answer": 0,
-      "answers": [
-        "Carousel",
-        "Concourse",
-        "Terminal",
-        "Hangar"
-      ],
-      "prize": "$2,000"
-    },
-    {
-      "question": "Which of these brands was chiefly associated with the manufacture of household locks?",
-      "correct_answer": 1,
-      "answers": [
-        "Phillips",
-        "Chubb",
-        "Flymo",
-        "Ronseal"
-      ],
-      "prize": "$4,000"
-    },
-    {
-      "question": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
-      "correct_answer": 3,
-      "answers": [
-        "Republicanism",
-        "Conservatism",
-        "Liberalism",
-        "Communism"
-      ],
-      "prize": "$8,000"
-    },
-    {
-      "question": "Which toys have been marketed with the phrase “robots in disguise”?",
-      "correct_answer": 3,
-      "answers": [
-        "Hatchimals",
-        "Sylvanian Families",
-        "Bratz Dolls",
-        "Transformers"
-      ],
-      "prize": "$16,000"
-    },
-    {
-      "question": "What does the word loquacious mean?",
-      "correct_answer": 0,
-      "answers": [
-        "Chatty",
-        "Angry",
-        "Shy",
-        "Beautiful"
-      ],
-      "prize": "$32,000"
-    },
-    {
-      "question": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
-      "correct_answer": 1,
-      "answers": [
-        "Pinstripe suit and trainers",
-        "Wide-brimmed hat and extra long scarf",
-        "Cape, velvet jacket and frilly shirt",
-        "Bow-tie, braces and tweed jacket"
-      ],
-      "prize": "$64,000"
-    },
-    {
-      "question": "Which of these religious observances lasts for the shortest period of time during the calendar year?",
-      "correct_answer": 2,
-      "answers": [
-        "Lent",
-        "Ramadan",
-        "Diwali",
-        "Hanukkah"
-      ],
-      "prize": "$125,000"
-    },
-    {
-      "question": "At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
-      "correct_answer": 0,
-      "answers": [
-        "Bahamas",
-        "US Virgin Islands",
-        "Turks and Caicos Islands",
-        "Bermuda"
-      ],
-      "prize": "$250,000"
-    },
-    {
-      "question": "Construction of which of these famous landmarks was completed first?",
-      "correct_answer": 2,
-      "answers": [
-        "Eiffel Tower",
-        "Empire State Building",
-        "Big Ben Clock Tower",
-        "Royal Albert Hall"
-      ],
-      "prize": "$500,000"
-    },
-    {
-      "question": "In 1718, which pirate died in battle off the coast of what is now North Carolina??",
-      "correct_answer": 0,
-      "answers": [
-        "Blackbeard",
-        "Calico Jack",
-        "Bartholomew Roberts",
-        "Captain Kidd"
-      ],
-      "prize": "$1,000,000"
-    }
+  {
+    "question": "In the UK, the abbreviation NHS stands for National what Service?",
+    "correct_answer": 1,
+    "answers": [
+      "Humanity",
+      "Health",
+      "Honour",
+      "Household"
+    ],
+    "prize": "$500"
+  },
+  {
+    "question": "Which Disney character famously leaves a glass slipper behind at a royal ball?",
+    "correct_answer": 2,
+    "answers": [
+      "Pocahontas",
+      "Sleeping Beauty",
+      "Cinderella",
+      "Elsa"
+    ],
+    "prize": "$1,000"
+  },
+  {
+    "question": "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
+    "correct_answer": 0,
+    "answers": [
+      "Carousel",
+      "Concourse",
+      "Terminal",
+      "Hangar"
+    ],
+    "prize": "$2,000"
+  },
+  {
+    "question": "Which of these brands was chiefly associated with the manufacture of household locks?",
+    "correct_answer": 1,
+    "answers": [
+      "Phillips",
+      "Chubb",
+      "Flymo",
+      "Ronseal"
+    ],
+    "prize": "$4,000"
+  },
+  {
+    "question": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
+    "correct_answer": 3,
+    "answers": [
+      "Republicanism",
+      "Conservatism",
+      "Liberalism",
+      "Communism"
+    ],
+    "prize": "$8,000"
+  },
+  {
+    "question": "Which toys have been marketed with the phrase “robots in disguise”?",
+    "correct_answer": 3,
+    "answers": [
+      "Hatchimals",
+      "Sylvanian Families",
+      "Bratz Dolls",
+      "Transformers"
+    ],
+    "prize": "$16,000"
+  },
+  {
+    "question": "What does the word loquacious mean?",
+    "correct_answer": 0,
+    "answers": [
+      "Chatty",
+      "Angry",
+      "Shy",
+      "Beautiful"
+    ],
+    "prize": "$32,000"
+  },
+  {
+    "question": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
+    "correct_answer": 1,
+    "answers": [
+      "Pinstripe suit and trainers",
+      "Wide-brimmed hat and extra long scarf",
+      "Cape, velvet jacket and frilly shirt",
+      "Bow-tie, braces and tweed jacket"
+    ],
+    "prize": "$64,000"
+  },
+  {
+    "question": "Which of these religious observances lasts for the shortest period of time during the calendar year?",
+    "correct_answer": 2,
+    "answers": [
+      "Lent",
+      "Ramadan",
+      "Diwali",
+      "Hanukkah"
+    ],
+    "prize": "$125,000"
+  },
+  {
+    "question": "At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
+    "correct_answer": 0,
+    "answers": [
+      "Bahamas",
+      "US Virgin Islands",
+      "Turks and Caicos Islands",
+      "Bermuda"
+    ],
+    "prize": "$250,000"
+  },
+  {
+    "question": "Construction of which of these famous landmarks was completed first?",
+    "correct_answer": 2,
+    "answers": [
+      "Eiffel Tower",
+      "Empire State Building",
+      "Big Ben Clock Tower",
+      "Royal Albert Hall"
+    ],
+    "prize": "$500,000"
+  },
+  {
+    "question": "In 1718, which pirate died in battle off the coast of what is now North Carolina??",
+    "correct_answer": 0,
+    "answers": [
+      "Blackbeard",
+      "Calico Jack",
+      "Bartholomew Roberts",
+      "Captain Kidd"
+    ],
+    "prize": "$1,000,000"
+  }
 ]
